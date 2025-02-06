@@ -3,9 +3,6 @@ package com.example.Profile.information.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.Profile.information.Repo.UserProfileRepository;
-import com.example.Profile.information.model.UserProfile;
-
 import java.util.Optional;
 
 @Service
