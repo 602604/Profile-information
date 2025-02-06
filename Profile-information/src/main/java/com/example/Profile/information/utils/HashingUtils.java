@@ -1,4 +1,4 @@
-package com.example.Profile.infromasjon.utils;
+package com.example.Profile.information.utils;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
