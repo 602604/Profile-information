@@ -1,6 +1,7 @@
 package com.example.Profile.information.model;
 
 public class PasswordChangeRequest {
+	private String email;
     private String currentPassword;
     private String newPassword;
     private String confirmPassword;
@@ -23,7 +24,11 @@ public class PasswordChangeRequest {
 	public void setConfirmPassword(String confirmPassword) {
 		this.confirmPassword = confirmPassword;
 	}
-
-    // Getters og setters.
-    
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
 }
