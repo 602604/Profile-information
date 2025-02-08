@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class UserProfile {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,9 +17,9 @@ public class UserProfile {
     private String profilePicturePath;
 
     // Getters, setters og konstruktør.
-    public UserProfile() {}
+    public User() {}
 
-    public UserProfile(String name, String email, String password, String profilePicturePath) {
+    public User(String name, String email, String password, String profilePicturePath) {
         this.name = name;
         this.email = email;
         this.password = password;
